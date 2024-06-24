@@ -12,12 +12,12 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 102vw;
+  height: 102vh;
   margin: 0;
   background-color: #050505;
   color: #fff;
-  font-size: .9rem;
+  font-size: 2.6rem;
   letter-spacing: 0.6px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -32,7 +32,7 @@ main {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px;
 }
 
 section {
@@ -46,7 +46,7 @@ section {
 }
 
 aside {
-  width: 250px;
+  width: 350px;
   height: 100%;
   background-color: rgb(44, 44, 44);
   overflow: hidden;
@@ -93,7 +93,7 @@ ul {
 }
 
 li {
-  padding: 10px 15px;
+  padding: 10px 10px;
   transition: background-color .25s;
   text-transform: capitalize;
   border-bottom: 1px solid #181818;
@@ -172,7 +172,7 @@ p { word-break: break-all; }
 }
 
 .ml-2 {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .ml-1 {
@@ -225,7 +225,7 @@ p { word-break: break-all; }
 }
 
 .truncate {
-  width: 75%;
+  width: 90%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -340,8 +340,8 @@ p { word-break: break-all; }
   height: 100%;
   width: 100%;
   max-height: 100%;
-  max-width: 80%;
-  padding: 5px 0;
+  max-width: 98%;
+  padding: 1px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
